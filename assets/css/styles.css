@@ -24,6 +24,8 @@ body, html {
 	background: #FF0509;
 	border-top-left-radius: 14px;
 	border-top-right-radius: 14px;
+	display: flex;
+	flex-wrap: wrap;
 }
 .buttons {
 	padding: 20px 20px 0 20px;
@@ -31,6 +33,16 @@ body, html {
 .row {
 	width: 280px;
 	float: left;
+}
+.buttons .row:nth-child(1) {
+	display: flex;
+	justify-content: flex-end;
+
+}
+.buttons .row:nth-child(1) > * {
+	background-color: rgb(228, 13, 13);
+	color: #fff;
+	font-size: 1.2rem;
 }
 input[type=button] {
 	width: 60px;
@@ -49,6 +61,10 @@ input[type=button] {
 	cursor: pointer;
 	
 }
+input[type=button]:hover {
+	box-shadow: 0 0 5px rgb(116, 114, 114);
+	transform: scale(1.02);
+}
 input[type=text] {
 	width: 270px;
 	height: 60px;
@@ -62,11 +78,11 @@ input[type=text] {
 	font-weight: 700;
 	font-size: 60px;
 	line-height: 60px;
+	display: f;
 	margin: 0 25px;
-	
 }
-.red {
-	background: #FF0509 !important;
+.equals {
+	background: green !important;
 	color: #ffffff !important;
 	
 }

@@ -34,13 +34,6 @@ In this assignment, you'll learn the workflow that you will use to deal with DOM
 
 - We need a `chooseOperation(operation)` function that controls what will happen anytime a user clicks on any operation button.
 
-- Another key function is `compute()`. It takes the values inside your calculator and displays the result.
-
-- Finally, a `updateDisplay()` function lets us update the values inside of the output.
-
-
-> **Note:** Use knowledge learned from prevous classes is highly required here.
-
 
 ## Conclusion
 
