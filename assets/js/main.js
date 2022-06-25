@@ -21,10 +21,11 @@ const calcNumbers = (input) => {
 }
 
 const chooseOperation = (operation) => {
-    display.value += operation;     
+    display.value += operation;   
+    
 }
 const appendNumber = (number) => {
-       
+     
     return display.value += number;
 }
 const clear = () => {
